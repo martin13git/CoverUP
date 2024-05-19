@@ -11,3 +11,273 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Container {
+  display: flex;
+
+}
+
+.Panel {
+  width: 40%;
+  padding-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin: 1%;
+  flex: auto;
+}
+
+
+.nav-link {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.navbar-brand {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
+  color: rgb(18, 20, 21);
+  outline-color: black;
+}
+
+
+.navbar {
+  background-color: rgb(43, 226, 177);
+}
+
+.form-label {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 5%;
+  font-family: cursive;
+  color: darkblue;
+}
+
+.btn-secondary {
+  height: min-content;
+}
+
+.dropoptions {
+  text-align: left;
+}
+
+.btn-group {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: lavender;
+}
+
+.funbtn {
+  text-align: center;
+}
+
+
+.promo {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.promotxt {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(97, 119, 101);
+}
+
+.btn-success {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-light {
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(5, 125, 91);
+  margin: auto;
+  color: azure;
+}
+
+.btn-light:hover {
+  color: darkgreen;
+}
+
+.btn-rmv {
+  background-color: lightcoral;
+  border-color: lightcoral;
+}
+
+.btn-rmv:hover {
+  background-color: crimson;
+  border-color: red;
+  color: beige;
+}
+
+
+.headertxt {
+  font-family: sans-serif;
+  font-weight: 600%;
+  font-size: medium;
+  text-align: center;
+  color: rgb(41, 55, 55);
+}
+
+
+.btn-outline-info {
+  background-color: rgb(43, 226, 177);
+  color: darkblue;
+  padding: 2%;
+  border-color: rgb(43, 226, 177);
+  font-weight: 500;
+}
+
+
+.cschool {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  padding-top: 6%;
+  padding-bottom: 10%;
+  font-size: xx-large;
+  text-align: center;
+  white-space: normal;
+  /* Allow text to wrap */
+  word-break: break-word;
+}
+
+.csub {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  padding-top: 8%;
+  font-size: x-large;
+  text-align: center;
+  white-space: normal;
+  /* Allow text to wrap */
+  word-break: break-word;
+}
+
+.ctopic {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 10%;
+  font-size: large;
+  text-align: center;
+  white-space: normal;
+  /* Allow text to wrap */
+  word-break: break-word;
+}
+
+.cinfo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: medium;
+  text-align: center;
+  white-space: normal;
+  /* Allow text to wrap */
+  word-break: break-word;
+}
+
+.clabel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 200;
+  font-size: small;
+  text-align: left;
+  margin-left: 100px;
+  white-space: normal;
+  word-break: break-word;
+}
+
+.previewheader {
+  min-height: 300px;
+}
+
+.previewbody {
+  min-height: 200px;
+}
+
+
+.a4-container {
+  position: relative;
+  border: 3px solid black;
+  width: 100%;
+  /* Adjust as needed, e.g., 50% to make it responsive */
+  max-width: 100%;
+  /* Ensure it doesn’t overflow the viewport */
+  margin: 20px;
+  /* Center the container */
+}
+
+.a4-container::before {
+  content: '';
+  display: block;
+  padding-bottom: 141.4%;
+  /* 297 / 210 * 100% */
+}
+
+.a4-panel {
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-content: stretch;
+  background-color: white;
+  box-sizing: border-box;
+  /* Ensure padding/border are included in dimensions */
+  overflow: auto;
+  /* Add scroll if content overflows */
+  padding: 20px;
+  /* Optional padding */
+}
+
+.alert {
+  margin-inline: 7%;
+  padding-inline: 5%;
+  color: red;
+}
+
+.previewlogo {
+  display: block;
+  height: 100px;
+  width: auto;
+  margin-top: 7%;
+  margin-inline: auto;
+}
+
+
+.terms-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.terms-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.terms-container h2 {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.terms-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.terms-container p {
+  margin-bottom: 10px;
+}
+
+.terms-container em {
+  display: block;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
