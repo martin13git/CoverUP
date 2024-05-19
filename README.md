@@ -11,7 +11,7 @@ CoverUP is a web application that allows users to create cover pages seamlessly 
 3. *Downloadable PDF output:* Download the generated cover page in PDF format for easy sharing and printing.
 
 ## Usage:
-1. Go to CoverUP website: [Website Link]
+1. Go to CoverUP website: https://cover-up.vercel.app (Recommended to open in laptop/pc for best experience)
 2. Enter your details in the provided fields.
 3. Click the "Download" button to generate and download your cover page as a PDF file.
 
