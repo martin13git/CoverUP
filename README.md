@@ -22,7 +22,7 @@ To get started with our app, follow these simple steps:
 
 1. *Clone the Repository:*
    bash
-   git clone https://[your_github_username]/coverup.git
+   git clone [https://[your_github_username]/coverup.git](https://github.com/martin13git/CoverUP.git)
    
 
 2. *Install Dependencies:*
