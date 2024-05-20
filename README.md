@@ -27,7 +27,7 @@ To get started with our app, follow these simple steps:
 
 2. *Install Dependencies:*
    bash
-   cd rcs-menu-card-web-app
+   cd CoverUP
    npm install
    
 
@@ -42,7 +42,7 @@ To get started with our app, follow these simple steps:
 
 ## Contributing:
 
-We welcome contributions from the community to make our app even better! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. We appreciate your support in improving the RCS Menu Card Web App for everyone.
+We welcome contributions from the community to make our app even better! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request. We appreciate your support in improving the CoverUP Webpage for everyone.
 
 ## Support:
 
