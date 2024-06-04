@@ -50,4 +50,4 @@ If you encounter any issues or have suggestions for improvements, please don't h
 
 ## License:
 
-This project is licensed under the [license name] license. See the LICENSE file for details.
+This project is licensed under the Apache-2.0 license. See the LICENSE file for details.
